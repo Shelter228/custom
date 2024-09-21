@@ -1,0 +1,79 @@
+/* main #ffffdf text: #0082ff*/
+@font-face {
+    font-family: "dmSans";
+    src: url(assets/fonts/DMsans.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "dmSans";
+}
+header {
+    background-color:#34495e;
+    padding: 22px 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+}
+ul {
+    list-style-type: none; 
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+    transition-duration: 0.4s;
+}
+a:hover {
+    color: #d7d7d7;
+    transition: color 0.3s ease;
+}
+.order {
+    padding: 5px 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.order a {
+    font-size: 20px;
+}
+.order:hover {
+    transition: 0.25s ease-in-out;
+    
+    background-color: white;
+}
+.order a:hover {
+    color: #34495e;
+    transition: 0.25s ease-in-out;
+}
+/* MAIN */
+main {
+    padding: 15px;
+}
+.title {
+    font-size: 34px;
+    margin: 7px 0;
+}
+.about {
+    font-size: 18px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 320px;
+    height: auto;
+}
